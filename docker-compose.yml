@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ntpd:
+    image: agate/ntpd
+    build: .
+    ports:
+      - 123:123
